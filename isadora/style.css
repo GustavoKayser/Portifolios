@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: 75vh;
+
+    text-align: justify;
+}
+
+.container div {
+    width: 50vw;
+    height: auto;
+    margin: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 50pt;
+    margin: 20px;
+    width: 50vw;
+
+    font-family: 'Bebas Neue';
+}
+
+.container p {
+    margin: 10px 0;
+    font-size: 12pt;
+
+    font-family: 'Montserrat';
+}
+
+#main-3, #main-5 {
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+}
+
+#main-3 h1, #main-5 h1 {
+    order: 2;
+}
+
+
+
+#main-1 {
+    background-image: url("images/isadora-prux-preto-e-branco.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-1 h1 {
+    text-align: center;
+    font-size: 70pt;
+    color: whitesmoke;
+
+    font-family: 'Pacifico';
+}
+
+.header {
+    height: 100vh;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+
+.sticky {
+    height: 40vh;
+}
+
+.bodies {
+    margin: auto;
+}
+
+@media (min-width: 1100px) {
+    .bodies {
+        width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container p {
+        font-size: 10pt;
+    }
+}
