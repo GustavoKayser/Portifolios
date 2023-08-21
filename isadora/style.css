@@ -13,14 +13,13 @@
     align-content: center;
     vertical-align: middle;
     justify-content: center;
-    height: 75vh;
+    height: 80vh;
 
     text-align: justify;
 }
 
 .container div {
     width: 50vw;
-    height: auto;
     margin: 20px;
 }
 
@@ -98,4 +97,70 @@
     .container p {
         font-size: 10pt;
     }
+}
+
+@media (max-width: 510px) {
+    .container {
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .container p {
+        font-size: 13pt;
+    }
+
+    .container div {
+        width: 95vw;
+    }
+
+    .container h1 {
+        width: 100vw;
+        margin: 5px;
+        font-size: 40pt;
+    }
+
+    #main-3 h1, #main-5 h1 {
+        order: 0;
+    }
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.gg-instagram {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+}
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: black;
+    right: 1px;
+    top: 1px
 }
