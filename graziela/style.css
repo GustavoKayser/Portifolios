@@ -28,6 +28,14 @@
     font-size: calc(50pt + 0.39vw);
     text-align: center;
     width: 50vw;
+    position: relative;
+    transform: translateY(50vh);
+}
+
+.left {
+    background-color: black;
+    height: 100%;
+    margin-right: 20px;
 }
 
 .right {
