@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(50, 51, 70);
+}
+
+.main {
+    text-align: center;
+    background-color: rgb(40, 41, 49);
+    margin: auto;
+    max-width: 900px;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.main p, h1 {
+    color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    vertical-align: middle;
+
+    margin-bottom: 20px;
+    background-color: rgb(69, 72, 99);
+    padding: 10px;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.header h1 {
+    font-size: 45pt;
+    font-family: 'Pacifico';
+    text-shadow: 4px 5px 5px black;
+}
+
+.header img {
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px black;
+}
+
+.body h1 {
+    font-size: 40pt;
+    margin: 10px;
+    background-color: rgb(69, 72, 99);
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Pacifico';
+    text-shadow: 4px 5px 5px black;
+}
+
+.body p {
+    font-size: 18pt;
+    text-align: justify;
+    margin: 30px;
+}
